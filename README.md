@@ -5054,12 +5054,12 @@ Install LLVM 15 and homebrew dependencies:
 brew install llvm@15 coreutils libtool cmake libiconv automake ninja gnu-sed pkg-config esbuild go rust
 ```
 
-bun (& the version of Zig) need LLVM 15 and Clang 13 (clang is part of LLVM). Weird build & runtime errors will happen otherwise.
+bun (& the version of Zig) need LLVM 15 and Clang 15 (clang is part of LLVM). Weird build & runtime errors will happen otherwise.
 
 Make sure LLVM 15 is in your `$PATH`:
 
 ```bash
-which clang-13
+which clang-15
 ```
 
 If it is not, you will have to run this to link it:
